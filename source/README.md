@@ -9,3 +9,5 @@ This project requires installed on your OS:
 # TO-DO
 
 - finish setting up README.md
+- add infra
+- add pipelines

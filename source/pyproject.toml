@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tiny-actuarial-poc-template"
+version = "0.1.0"
+description = ""
+authors = ["Magdalena Piatkowska <magda.piatk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "^0.115.0"}
+black = "^24.8.0"
+mypy = "^1.11.2"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

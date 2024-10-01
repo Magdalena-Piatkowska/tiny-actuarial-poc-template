@@ -13,10 +13,6 @@ def get_dtos_from_csv(
     dto_class: Type[BaseModel],
     encoding: str = "utf-8",
 ) -> Generator[BaseModel, None, None]:
-    """
-    Generates DTOs from the contents of a CSV file.
-    If the columns in the CSV file do not match attrs of the DTO class, you can provide mapping.
-    """
     file_content = open(file_path, mode="r", encoding=encoding)
 
     with file_content as f:

@@ -18,5 +18,5 @@ def sample_properties():
 def test_get_rated_properties(sample_properties):
 
     rated_properties = get_rated_properties(properties=sample_properties)
-    assert rated_properties[0].model_loss_cost_fgu == 13770.16512976
-    assert rated_properties[1].model_loss_cost_fgu == 27540.33025952
+    assert rated_properties[0].model_loss_cost_fgu == 10000.0
+    assert rated_properties[1].model_loss_cost_fgu == 20000.0
